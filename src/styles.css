@@ -56,6 +56,13 @@ h2 {
   
 }
 
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+  
+}
+
 .hole {
   flex: 1 0 33.33%;
   overflow: hidden;
